@@ -3,7 +3,7 @@ function commonChar(str1, str2){
     for(var a = 0; a < str1.length; a++){
         for(var b = 0; b < str2.length; b++){
             if(str2.charAt(b) === str1.charAt(a)){
-                if(str2.charAt(b) !== arr[a]){      //check whether there's duplicates
+                if(str2.charAt(b) !== arr[a]){      //checks if the char from the string is not already stored in the array to avoid duplicates
                     arr.push(str2.charAt(b));
                 }
             }
