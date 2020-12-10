@@ -1,5 +1,5 @@
 function addTwoNumbers(x , y){  
-    return (x === 3 || y === 3 || (x + y) === 3);
+    return ((x === 3 || y === 3) && ((x + y) === 3));
 }
 
 //test data
